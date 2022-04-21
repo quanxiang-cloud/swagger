@@ -1,0 +1,11 @@
+api = "0.7"
+
+[buildpack]
+id = "quanxiang-cloud/go-swagger"
+version = "0.0.1"
+
+[[stacks]]
+id = "faas.swagger.go001"
+
+[metadata]
+  include-files = ["bin/build", "bin/detect","bin/main","buildpack.toml","main.go"]

@@ -1,0 +1,6 @@
+[[order]]
+
+  [[order.group]]
+    id = "quanxiang-cloud/go-swagger"
+    version = "0.0.1"
+    
